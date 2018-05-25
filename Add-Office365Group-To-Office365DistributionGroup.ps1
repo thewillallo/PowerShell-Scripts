@@ -22,3 +22,9 @@ function NestOffice365Group {
             # End DO loop, will terminate if response to $question does not equal "Yes"
         } Until (($question -ne "Yes") -or ($question -ne "yes"))
 }
+
+
+
+
+
+
