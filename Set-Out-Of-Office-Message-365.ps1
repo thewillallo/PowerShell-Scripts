@@ -27,4 +27,3 @@ function SetOutOfOffice {
             Set-MailboxAutoReplyConfiguration -Identity $user -AutoReplyState enabled -InternalMessage $message -ExternalMessage $extMessage 
     
 }
-
