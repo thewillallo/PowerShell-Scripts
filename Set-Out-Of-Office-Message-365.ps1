@@ -1,4 +1,4 @@
-function SetOutOfOffice {
+function Set-OutOfOffice {
     <#
     .SYNOPSIS
     This script will set the auto reply for any user in your Office 365 tenant.
