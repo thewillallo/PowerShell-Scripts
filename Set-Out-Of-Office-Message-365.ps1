@@ -25,4 +25,6 @@ function SetOutOfOffice {
         } Else {
             $extMessage = Read-Host "What would you like the external message to be?"
             Set-MailboxAutoReplyConfiguration -Identity $user -AutoReplyState enabled -InternalMessage $message -ExternalMessage $extMessage 
+    
 }
+
