@@ -1,4 +1,4 @@
-function Set-OutOfOffice {
+function SetOutOfOffice {
     <#
     .SYNOPSIS
     This script will set the auto reply for any user in your Office 365 tenant.
@@ -27,3 +27,4 @@ function Set-OutOfOffice {
             Set-MailboxAutoReplyConfiguration -Identity $user -AutoReplyState enabled -InternalMessage $message -ExternalMessage $extMessage 
     
 }
+
