@@ -32,7 +32,7 @@ function Set-RandomUserUIDAndGID {
             Set-ADUser $user -Replace @{gidnumber=$UID}
             # Optional - set shell to /bin/bash - remove comment on line below to use
             # Set-ADUser -Replace @{loginshell="/bin/bash"}  	   
-    }
+        }
     }
     end {
         Write-Output "Script Complete - $date" >> $logpath
